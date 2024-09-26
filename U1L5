@@ -2,6 +2,11 @@ import math
 length = input("Please input a length: ")
 length = float(length)
 area = math.pow(length, 2)
-print("The area of a square of side length", length, "is:", area)
+print("The area of a square of side length", length, "is:", round(area,2))
 
-r= input("Enter the radius for the a Norman Window shape: ")
+r= input("Enter the circle's radius: ")
+r = float(r)
+
+#The length of the side of the square is the circle's diameter so it's 2r
+#area of the square 
+area2 = math.pow(2*r,2)
