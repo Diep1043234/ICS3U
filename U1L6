@@ -1,0 +1,9 @@
+import math
+
+x= input("Please input your year of birth: ")
+x = int(x)
+
+y = input("Please input your age: ")
+y = int(y)
+
+((x*2) + 5)*50 + y
