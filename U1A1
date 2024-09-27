@@ -32,3 +32,8 @@ s = (2*math.pi * rr * h) + (2*math.pi*math.pow(rr,2))
 print("The surface area of the cylinder is: ", round(s, 2))
 
 print("The volumne of the cylinder is: ", round(math.pow(rr,2)*math.pi*h, 2))
+print("4. The period is the time it takes for a pendulum to make one back-and-forth swing. It is determined by pendulum length and the force of gravity. Given that acceleration due to gravity is g = 9.8, let's calculate the period based on the length")
+
+L = input("Enter the length", L, "meters")
+L = float(L)
+print("Enter the length", L, "meters")
