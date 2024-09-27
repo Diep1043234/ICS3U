@@ -6,4 +6,4 @@ x = int(x)
 y = input("Please input your age: ")
 y = int(y)
 
-((x*2) + 5)*50 + y
+print("Double the birth year, then add 5: ", (x*2)+5)
