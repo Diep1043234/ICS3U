@@ -3,4 +3,20 @@
 
 import math
 
-print("Let's calculate the area of a rectangle
+print("1. Let's calculate the area of a rectangle")
+
+l = input("Enter its length: ")
+l = float (l)
+
+w = input("Enter its width: ")
+w = float(w)
+
+print("The area of a rectangle is: ", round(l*w, 2))
+
+print("2. Let's compute the area of a circle")
+
+r = input("Enter the radius: ")
+r = float (r)
+
+print("The area of the circle is: ", round(math.pi*math.pow(r,2), 2))
+
