@@ -20,3 +20,15 @@ r = float (r)
 
 print("The area of the circle is: ", round(math.pi*math.pow(r,2), 2))
 
+print("3. Let's compute the surface area and volume of a cylinder")
+
+h = input("Enter its height: ")
+h = float(h)
+rr = input("Enter its radius: ")
+rr= float(rr)
+
+s = (2*math.pi * rr * h) + (2*math.pi*math.pow(rr,2))
+
+print("The surface area of the cylinder is: ", round(s, 2))
+
+print("The volumne of the cylinder is: ", round(math.pow(rr,2)*math.pi*h, 2))
