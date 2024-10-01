@@ -29,3 +29,7 @@ elif(ch == "C" or "c"):
     print("I prefer cherries")
 else:
     print("Please run the program again and enter only A, B or C")
+
+#Modify 2
+x = input("Enter a number from 1 - 100: )
+if (x == 
